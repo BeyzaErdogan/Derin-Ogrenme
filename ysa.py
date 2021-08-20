@@ -16,7 +16,7 @@ min_max_scaler = preprocessing.MinMaxScaler()
 class collect_data:
   
     def dataseti(self) :
-        dataframe = pd.read_excel('C:\\Users\\DELL\\Desktop\\Pyhton\\Energy.xlsx')
+        dataframe = pd.read_excel('Energy.xlsx')
         df = dataframe.values
         X = df[:,0:8]
         Y = df[:,8:9]
